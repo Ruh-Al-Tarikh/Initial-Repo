@@ -1,4 +1,6 @@
 name: Self-Hosted Runner Test
+permissions:
+  contents: read
 
 on:
   push:
