@@ -1,0 +1,13 @@
+name: Self-Hosted Runner Test
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - name: Say hello
+        run: echo "✅ Self-hosted runner is working!"
